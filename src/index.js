@@ -9,7 +9,7 @@ const loadMore = document.querySelector('.load-more');
 const BASE_URL = 'https://pixabay.com/api/';
 const API = '31018447-275bb8eed5c590f41eaba828c';
 
-queryParams = {
+const queryParams = {
   key: API,
   q: input.value,
   image_type: 'photo',
