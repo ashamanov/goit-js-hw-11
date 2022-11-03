@@ -46,7 +46,6 @@ function queryFunction() {
         );
       }
       if ((data.hits.length < 40) & (data.hits.length !== 0)) {
-        loadMore.style.display = 'none';
         Notify.warning(
           "We're sorry, but you've reached the end of search results.!"
         );

@@ -3,6 +3,10 @@
   justify-content: center;
 }
 
+.load-more {
+  display: none;
+}
+
 .gallery {
   display: flex;
   margin-top: 20px;
@@ -47,7 +51,6 @@
 }
 
 .load-more {
-  display: none;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
